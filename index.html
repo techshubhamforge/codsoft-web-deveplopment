@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham Sharma | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f5fc;
+            color: #202b3c;
+        }
+
+        header {
+            background: #172554;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: #dbeafe;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #172554;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 30px 8%;
+        }
+
+        section h2 {
+            color: #2563eb;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns:
+                repeat(auto-fit, minmax(180px, 1fr));
+            gap: 18px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px #00000012;
+        }
+
+        footer {
+            background: #172554;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Shubham.</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Hi, I'm Shubham Sharma</h1>
+        <p>BTech IT Student | Aspiring Web Developer</p>
+        <p>Learning technology and building useful websites.</p>
+        <a class="btn" href="#projects">View My Projects</a>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a BTech Information Technology student.
+            I am learning web development and programming.
+            My goal is to improve my skills through practical projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Creating webpage structure.</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Designing attractive websites.</p>
+            </div>
+            <div class="card">
+                <h3>Python</h3>
+                <p>Basic programming.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Learning interactive websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Personal Portfolio</h3>
+                <p>A website introducing myself and my skills.</p>
+            </div>
+            <div class="card">
+                <h3>Landing Page</h3>
+                <p>A webpage designed using HTML and CSS.</p>
+            </div>
+            <div class="card">
+                <h3>Calculator</h3>
+                <p>A calculator built using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your-email@example.com</p>
+        <p>Location: Ghaziabad, Uttar Pradesh</p>
+        <a class="btn" href="mailto:your-email@example.com">
+            Email Me
+        </a>
+    </section>
+
+    <footer>
+        <p>Copyright 2026 | Shubham Sharma</p>
+    </footer>
+
+</body>
+</html>ssssss
